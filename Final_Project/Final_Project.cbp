@@ -32,7 +32,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="freeglut/include" />
+			<Add directory="C:/Users/Administrator/Desktop/freeglut/include" />
 		</Compiler>
 		<Linker>
 			<Add library="glut32" />
@@ -40,9 +40,8 @@
 			<Add library="glu32" />
 			<Add library="winmm" />
 			<Add library="gdi32" />
-			<Add directory="freeglut/lib" />
+			<Add directory="C:/Users/Administrator/Desktop/freeglut/lib" />
 		</Linker>
-		<Unit filename="glm.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
